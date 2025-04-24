@@ -2,15 +2,13 @@ public class FaturaCliente {
     private int id;
     private Cliente cliente;
     private double valor;
-
-    // Construtor com todos os atributos
+    
     public FaturaCliente(int id, Cliente cliente, double valor) {
         this.id = id;
         this.cliente = cliente;
         this.valor = valor;
     }
 
-    // Construtor apenas com id
     public FaturaCliente(int id) {
         this.id = id;
     }
